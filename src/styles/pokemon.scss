@@ -1,0 +1,43 @@
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+
+  .pokemon-wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    border: 2px solid black;
+    height: auto;
+    width: 300px;
+    background-color: #ce2211;
+    box-shadow: #ffcc00 0px 0px 15px 0px;
+
+    .name {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+
+    .pokedex-number {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.25em;
+    }
+
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000000;
+    }
+
+    .description {
+      font-size: 18px;
+    }
+  }
+}

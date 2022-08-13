@@ -1,0 +1,17 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: rgb(94, 189, 252);
+  background: radial-gradient(
+    circle,
+    rgba(94, 189, 252, 1) 2%,
+    rgba(28, 76, 189, 1) 100%
+  );
+}
+
+.app {
+  height: 100vh;
+  width: auto;
+  font-family: "Nunito", sans-serif;
+}

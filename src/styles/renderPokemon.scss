@@ -1,0 +1,22 @@
+.page-wrapper {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-shadow: #ffcc00 0px 0px 10px;
+  }
+
+  .carousel-root {
+    width: 1000px;
+  }
+
+  .carousel-status {
+    margin-right: 480px;
+  }
+}

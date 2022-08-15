@@ -29,7 +29,7 @@ const RenderPokemon = () => {
   return (
     <div className="page-wrapper">
       <h1 className="title"> My Pokemon</h1>
-      <Carousel infiniteLoop useKeyboardArrows autoPlay>
+      <Carousel infiniteLoop useKeyboardArrows autoPlay={false}>
         {showPokemon()}
       </Carousel>
     </div>

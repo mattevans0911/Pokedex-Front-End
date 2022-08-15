@@ -8,8 +8,9 @@
     display: grid;
     grid-template-rows: auto;
     border: 2px solid black;
+    border-radius: 10px;
     height: auto;
-    width: 300px;
+    width: 290px;
     background-color: #ce2211;
     box-shadow: #ffcc00 0px 0px 15px 0px;
 
@@ -38,6 +39,48 @@
 
     .description {
       font-size: 18px;
+    }
+  }
+}
+
+.back-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+
+  .back-pokemon-wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 450px;
+    width: 290px;
+    background-color: #ce2211;
+    box-shadow: #ffcc00 0px 0px 15px 0px;
+
+    .type {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.25em;
+    }
+
+    .ability {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.25em;
+    }
+
+    .weakness {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.25em;
     }
   }
 }
